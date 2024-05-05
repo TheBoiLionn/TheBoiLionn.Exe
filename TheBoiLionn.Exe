@@ -60,9 +60,8 @@ clearButton.Parent = executeSection
 
 local function executeScript()
     local scriptText = scriptTextBox.Text
-    -- Execute the script here using the loadstring and require function
+    -- Execute the script here using the 'loadstring' function
     loadstring(scriptText)()
-    require(id):(function).("username")
 end
 
 
